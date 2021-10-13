@@ -1,0 +1,166 @@
+* {   
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+h2 {
+    font-size: 28px;
+    color: black;
+}
+.linear-gradient {
+    background: linear-gradient(black, transparent);
+    opacity: 90%;
+    margin-top: 40px;
+}
+div {
+    width: 100%;
+    height: 100%;
+}
+.titre-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.999), rgba(0, 0, 0, 0.144)), url("https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    line-height: 100vh;
+    text-size-adjust: auto;
+    font-size: xx-large;
+}
+
+nav {
+    align-items: center;
+    color: beige;
+    background-color: black;  
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    opacity: 98%;
+}
+.logo img{
+    width: 90px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.logo {
+    padding: 5px 40px;
+}
+nav ul {
+    margin-left: 70vh;
+    text-align: center;
+    font-size: 0;
+}
+nav li {
+    display: inline-block;
+}
+li:hover {
+    background-color: rgb(27, 25, 25);
+}
+a:active {
+    background: rgb(27, 87, 95);
+    color: rgb(230, 216, 216);
+}
+.localisation1 {
+    background-color: rgb(27, 87, 95);
+}
+nav a {
+    display: block;
+    color: beige;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 25px 40px;
+}
+
+/*------------------------------DEUXIEME PARTIE------------------------------------------------------------------*/
+.texte {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bloc1 {
+    width: 40%;
+    padding: 0px 20px 20px 20px;
+    background-color: rgb(27, 87, 95);
+    color: beige;
+}
+.bloc1 h2 {
+    padding: 20px 20px;
+    text-align: center;
+    color: beige;
+}
+.bloc1 p {
+    line-height: 2em;
+    text-align: center;
+}
+.bloc2 {
+    width: 40%;
+    padding: 0px 20px 20px 20px;
+    
+    
+}
+.bloc2 h2 {
+    padding: 20px 20px;
+    text-align: center;
+}
+.bloc2 p {
+    padding: 20px;
+    text-align: left;
+}
+.bloc2 img {
+    width: 100px;
+    padding: 60px;
+    margin-left: 250px;
+}
+.repas1 img {
+    margin: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+.formulaire h2 {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgb(27, 87, 95);
+    color: beige;
+}
+.formulaire h3 {
+    font-size: x-large;
+    padding: 10px 10px;
+    background-color: beige;
+    color: black;
+}
+form {
+    background-color: beige;
+
+}
+form p {
+    padding: 10px 10px 10px 10px;
+}
+form :first-child {
+    padding-top: 20px;
+}
+form :last-child {
+    padding-bottom: 20px;
+}
+.coordonnees {
+    text-align: center;
+}
+input {
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+}
+.identifiants {
+    text-align: center;
+}
+.button {
+    margin-left: 48%;
+}
+
