@@ -9,7 +9,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 h2 {
-    font-size: 28px;
+    font-size: 34px;
     color: black;
 }
 .linear-gradient {
@@ -81,12 +81,13 @@ nav a {
 
 /*------------------------------DEUXIEME PARTIE------------------------------------------------------------------*/
 .texte {
-    padding-top: 20px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-around;
     
 }
 .bloc1 {
+    border-radius: 10px;
     width: 40%;
     padding: 0px 20px 20px 20px;
     background-color: rgb(27, 87, 95);
@@ -98,10 +99,12 @@ nav a {
     color: beige;
 }
 .bloc1 p {
-    line-height: 2em;
+    line-height: 3em;
     text-align: center;
 }
 .bloc2 {
+    border-radius: 10px;
+    background-color: thistle;
     width: 40%;
     padding: 0px 20px 20px 20px;
     
@@ -118,7 +121,15 @@ nav a {
 .bloc2 img {
     width: 100px;
     padding: 60px;
-    margin-left: 250px;
+    margin-left: 200px;
+}
+.repas1 {
+    display: flex;
+    justify-content: space-around;
+}
+.description {
+    padding: 130px 0px;
+    width: 40%;
 }
 .repas1 img {
     margin: 50px;
@@ -127,42 +138,48 @@ nav a {
 }
 .formulaire h2 {
     text-align: center;
-    padding: 10px 10px;
+    padding: 40px 0 10px 0;
     background-color: rgb(27, 87, 95);
     color: beige;
-}
-.formulaire h3 {
-    font-size: x-large;
-    padding: 10px 10px;
-    background-color: beige;
-    color: black;
+
 }
 form {
+    border-radius: 10px;
+    display: inline-block;
+    width: 500px;
     background-color: beige;
-
+    
 }
 form p {
     padding: 10px 10px 10px 10px;
 }
 form :first-child {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 form :last-child {
     padding-bottom: 20px;
 }
 .coordonnees {
+
+    background-color: rgb(27, 87, 95);
+    padding: 40px 0px;
     text-align: center;
 }
 input {
-    padding: 15px 10px 15px 10px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 15px 40px 15px 40px;
     text-align: center;
+}
+input.button {
+    border-color: beige;
+    color: beige;
+    border-radius: 10px;
+    background-color: rgb(27, 87, 95);
+    padding: 20px 50px;
 }
 .identifiants {
     text-align: center;
-}
-.button {
-    margin-left: 48%;
-    color: blue;
-    background-color: rgb(53, 45, 61);
 }
 

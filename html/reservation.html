@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <meta name="description"
         content="Bienvenue au restaurant Petits gourmets caractérisé par des menus innovants, préparés avec des produits locaux" />
     <meta name="copyright" content="&copy" />
@@ -35,37 +35,66 @@
         <h1>Il est temps de réserver votre table !!</h1>
     </section>
     <section class="formulaire">
-            <h2>Créer un compte</h2>
+        <h2>Créer un compte</h2>
 
-        <fieldset class="coordonnees"><h3>Coordonnées</h3>
-        <form method="post" action="traitement.php">
-            <p>
-                <label for="Nom"></label><input type="text" name=" Nom" id="Nom" placeholder="Nom de famille" required/></p>
-         
-            <p>
-                <label for="Prénom"></label><input type="text" name=" Prenom" id="Prénom" placeholder="Votre Prénom" required/></p>
-         
-            <p>
-                <label for="Téléphone"></label><input type="tel" name=" Telephone" id="Telephone" placeholder="Numéro de téléphone" required/></p>
+            <section class="coordonnees">
+            <form class="form" method="post" action="traitement.php" id="form">
+                <p>
+                    <label for="Nom"></label><input type="text" name="nom" id="Nom" placeholder="Nom de famille" required='required'/>
+                </p>
+
+                <p>
+                    <label for="Prénom"></label><input type="text" name="prenom" id="Prenom" placeholder="Votre Prénom" required='required'/>
+                </p>
+
+                <p>
+                    <label for="Téléphone"></label><input type="tel" name="telephone" id="Telephone"
+                        placeholder="Numéro de téléphone" required='required'/>
+                </p>
+
+                <p>
+                    <label for="Email"></label><input type="email" name="email" id="Email" placeholder="Votre Email"
+                        pattern="+@thebestmail.com" required='required'/>
+                </p>
+
+                <p>
+                    <label for="Nom d'utilisateur"></label><input type="text" name=" nomdutilisateur"
+                        id="Nom_d_utilisateur" placeholder="Nom d'utilisateur" required='required'/>
+                </p>
+
+                <p>
+                    <label for="Mot de passe"></label><input type="password" name="motdepasse" id="Mot_de_passe"
+                        placeholder="Mot de passe" required='required'/>
+                </p>
+                <p>
+                    <input class='button' type="submit" name="envoyer" />
+                </p>
+                <p style="color: red;" id="erreur"></p>
+            </section> 
+    
+            </form>
         
-            <p>
-                <label for="Email"></label><input type="email" name=" Email" id="Email" placeholder="Votre Email" pattern="+@thebestmail.com" required/></p>
-         
-        </form>        
-        </fieldset>
-        <fieldset class="identifiants"><h3>Identifiants de connexion</h3>
-        <form>
-         
-            <p>
-                <label for="Nom d'utilisateur"></label><input type="text" name=" Nom-d-utilisateur" id="Nom d utilisateur" placeholder="Nom d'utilisateur" required/></p>
-       
-            <p>
-                <label for="Mot de passe"></label><input type="password" name="Mot-de-passe" id="Mot de passe" placeholder="Mot de passe" required/></p>
-         </form>
+        <!-- <fieldset class="identifiants">
+            <h3>Identifiants de connexion</h3>
+            <form>
 
-        </fieldset>
+                <p>
+                    <label for="Nom d'utilisateur"></label><input type="text" name=" Nom_d_utilisateur"
+                        id="Nom_d_utilisateur" placeholder="Nom d'utilisateur"/>
+                </p>
 
-        <input class="button" type="submit" value="Envoyer" />
+                <p>
+                    <label for="Mot de passe"></label><input type="password" name="Mot_de_passe" id="Mot_de_passe"
+                        placeholder="Mot de passe"/>
+                </p>
+                <p style="color: red;" id="erreur"></p>
+
+                <input class="button" type="submit" value="Envoyer" />
+
+            </form>
+
+        </fieldset> -->
+
 
 
 
@@ -85,6 +114,8 @@
 
 
     </section>
+    <!--javascript-->
+    <script src="java.js"></script>
 </body>
 
 <footer>
